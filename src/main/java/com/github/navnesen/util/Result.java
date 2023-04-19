@@ -1,4 +1,4 @@
-package com.github.navnesen;
+package com.github.navnesen.util;
 
 import com.github.navnesen.result.InspectAction;
 import com.github.navnesen.result.TypeAction;
