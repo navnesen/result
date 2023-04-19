@@ -21,7 +21,7 @@ public class Result<O, E> {
 	protected E exception;
 	protected O value;
 
-	public Result(boolean isError, O value, E exception) {
+	protected Result(boolean isError, O value, E exception) {
 		this.isError = isError;
 		this.value = value;
 		this.exception = exception;
